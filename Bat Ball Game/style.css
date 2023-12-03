@@ -1,0 +1,55 @@
+h1 {
+  background-image: url("./images/bat-ball.jpeg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+.insideContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.user {
+  width: 500px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user button {
+  width: 300px;
+  background-color: white;
+  border: none;
+}
+
+#Bat-img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  padding: 15px;
+  margin: 5px;
+}
+
+#computer-choice {
+  width: 500px;
+  height: 600px;
+  border: 2px solid Gray;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
